@@ -17,7 +17,6 @@
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
@@ -52,22 +51,22 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ">
               <li class="nav-item ">
-                <a class="nav-link" href="index.html">Úvod </a>
+                <a class="nav-link" href="index.html">Úvod</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html"> O firmě</a>
+                <a class="nav-link" href="o_firme.html">O firmě</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="service.html">Služby</a>
+                <a class="nav-link" href="sluzby.html">Služby</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="prices.html">Ceník</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="why.html"> Osvědčení <span class="sr-only">(current)</span> </a>
+                <a class="nav-link" href="cenik.html">Ceník</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Kontakt</a>
+                <a class="nav-link" href="osvedceni.html"> Osvědčení </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="kontakt.html">Kontakt<span class="sr-only">(current)</span> </a>
               </li>
             </ul>
           </div>
@@ -77,42 +76,79 @@
     <!-- end header section -->
   </div>
 
-  <!-- why us section -->
-
-  <section class="why_us_section layout_padding">
-    <div class="why_bg_box">
-      <img src="images/why-bg.jpg" alt="">
-    </div>
-    <div class="why_us_container">
-      <div class="heading_container heading_center ">
-        <h2 class="">
-          Osvědčení
-        </h2>
-        <p class="col-lg-8 px-0">
-          Na prováděné práce jsme vybaveni potřebným proškolením, nářadím a technickým vybavením
-        </p>
-      </div>
-      <div class="lightbox-gallery">
-        <div class="container">
-            <div class="row photos">
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="images/osv1.jpg" data-lightbox="photos"><img class="img-fluid" src="images/osv1.jpg"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="images/osv2.jpg" data-lightbox="photos"><img class="img-fluid" src="images/osv2.jpg"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="images/osv3.jpg" data-lightbox="photos"><img class="img-fluid" src="images/osv3.jpg"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="images/osv4.jpg" data-lightbox="photos"><img class="img-fluid" src="images/osv4.jpg"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="images/osv5.jpg" data-lightbox="photos"><img class="img-fluid" src="images/osv5.jpg"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="images/osv6.jpg" data-lightbox="photos"><img class="img-fluid" src="images/osv6.jpg"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="images/osv7.jpg" data-lightbox="photos"><img class="img-fluid" src="images/osv7.jpg"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="images/osv8.jpg" data-lightbox="photos"><img class="img-fluid" src="images/osv8.jpg"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="images/osv9.jpg" data-lightbox="photos"><img class="img-fluid" src="images/osv9.jpg"></a></div>
+  <!-- contact section -->
+  <section class="contact_section layout_padding">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="heading_container heading_center">
+          <h2>Kontakt</h2>
+        </div>
+        <div class="row align-items-start">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="widget widget-contact">
+                    <!-- widget search -->
+                    <address>
+                        <strong>Dušan Špánik</strong>
+                        <br> Svojsíkova 1594/6
+                        <br> 708 00 Ostrava-Poruba
+                        <br> IČ: 66714699
+                        <br> DIČ: CZ 6807080599
+                        <br>
+                        <abbr title="Telefon">Tel:</abbr><a href="tel:+420604763257">+420 603 788 636</a>
+                    </address>
+                    <address>
+                        <strong>Email</strong>
+                        <br>
+                        <a href="mailto:#">elmechanic@seznam.cz</a>
+                    </address>
+                    <address>
+                        <strong>Provozovna</strong>
+                        <br> Provozní 3236
+                        <br> 723 00 Ostrava-Martinov
+                    </address>
+                </div>
+            </div>
+                <!-- /.widget search -->
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.8596541186553!2d18.190110276060533!3d49.845094530766275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713e3de79453731%3A0x51d04f9da2a29436!2sProvozn%C3%AD%203236%2C%20723%2000%20Ostrava%2023!5e0!3m2!1scs!2scz!4v1708379327630!5m2!1scs!2scz" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="450"></iframe>
             </div>
         </div>
     </div>
+      <div class="row layout_padding">
+        <div class="col-md-7 mx-auto">
+          <div class="form_container">
+            <div class="heading_container heading_center">
+              <h2>Napište nám</h2>
+            </div>
+            <form action="">
+              <div class="form-row">
+                <div class="form-group col">
+                  <input type="text" class="form-control" placeholder="Vaše jméno" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-lg-6">
+                  <input type="text" class="form-control" placeholder="Telefonní číslo" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col">
+                  <input type="text" class="message-box form-control" placeholder="Zpráva" />
+                </div>
+              </div>
+              <div class="btn_box">
+                <button>
+                  Odeslat
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
+  <!-- end contact section -->
 
-  <!-- end why us section -->
-
-  <!-- info section -->
   <section class="info_section ">
     <div class="container">
       <div class="info_top">
@@ -178,14 +214,11 @@
     </div>
   </section>
 
-  <!-- end info_section -->
-
   <!-- footer section -->
   <footer class="footer_section">
     <div class="container">
       <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
+        &copy; <span id="displayYear"></span> All Rights Reserved By Elektrikář-Ostrava
       </p>
     </div>
   </footer>
@@ -203,7 +236,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
   <!-- custom js -->
   <script src="js/custom.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 
 </body>
 
