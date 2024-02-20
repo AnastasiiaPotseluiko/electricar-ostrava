@@ -231,20 +231,28 @@
             <form action="https://formsubmit.co/anastasiyasergeevnap@gmail.com" method="POST">
               <div class="form-row">
                 <div class="form-group col-lg-6">
-                  <input type="text" name="Jméno" class="form-control" placeholder="Vaše jméno" required/>
+                  <input type="text" name="Jméno" class="form-control" placeholder="Vaše jméno" required
+                  oninvalid="this.setCustomValidity('Zadejte jméno')"
+                  oninput="this.setCustomValidity('')"/>
                 </div>
                 <div class="form-group col-lg-6">
-                  <input type="text" name="Číslo" class="form-control" placeholder="Telefonní číslo" required/>
+                  <input type="text" name="Číslo" class="form-control" placeholder="Telefonní číslo" required
+                  oninvalid="this.setCustomValidity('Zadejte telefonní číslo')"
+                  oninput="this.setCustomValidity('')"/>
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col">
-                  <input type="text" name="Email" class="form-control" placeholder="Email" required/>
+                  <input type="text" name="Email" class="form-control" placeholder="Email" required
+                  oninvalid="this.setCustomValidity('Zadejte email')"
+                  oninput="this.setCustomValidity('')"/>
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col">
-                  <input type="text" name="Zpráva" class="message-box form-control" placeholder="Zpráva" required/>
+                  <input type="text" name="Zpráva" class="message-box form-control" placeholder="Zpráva" required
+                  oninvalid="this.setCustomValidity('Napište zprávu nebo otázku')"
+                  oninput="this.setCustomValidity('')"/>
                 </div>
               </div>
               <div class="btn_box">
